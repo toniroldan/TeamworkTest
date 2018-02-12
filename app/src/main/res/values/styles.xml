@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="ProjectNameTitle">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CompanyNameTitle">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Medium</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="ProjectDates">
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Small</item>
+    </style>
+
+    <style name="ProjectDescription">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Small</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TaskSummaryTitle">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Large</item>
+        <item name="android:text">@string/task_summary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TaskSummarySubTitle">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Medium</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+    <style name="TaskSummaryPieChart">
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+</resources>

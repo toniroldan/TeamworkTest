@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:fitsSystemWindows="true"
+    tools:context=".presentation.activities.ProjectsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TaskSummaryTitle"/>
+
+    <TextView
+        android:id="@+id/tv_my_tasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TaskSummarySubTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="My tasks(4)"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart_my_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        style="@style/TaskSummaryPieChart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_my_tasks"/>
+
+    <TextView
+        android:id="@+id/tv_all_tasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TaskSummarySubTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chart_my_tasks"
+        tools:text="All tasks(150)"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart_all_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        style="@style/TaskSummaryPieChart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_all_tasks"/>
+
+</android.support.constraint.ConstraintLayout>

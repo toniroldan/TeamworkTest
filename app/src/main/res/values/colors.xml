@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#45627e</color>
+    <color name="colorPrimaryDark">#45627e</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <array name="legendColors">
+        <item>#de5e59</item>
+        <item>#009688</item>
+        <item>#2f8de4</item>
+        <item>#ecb94c</item>
+        <item>#cccccc</item>
+    </array>
+</resources>

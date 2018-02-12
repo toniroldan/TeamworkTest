@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TeamworkTest</string>
+    <string name="projects">Projects</string>
+    <string name="task_summary">Task Summary</string>
+
+    <string name="mytasks">My Tasks(%1d)</string>
+    <string name="alltasks">All Tasks(%1d)</string>
+    <string name="late">Late(%1$d)</string>
+    <string name="started">Started(%1$d)</string>
+    <string name="today">Today(%1$d)</string>
+    <string name="upcoming">Upcoming(%1$d)</string>
+    <string name="nodate">No date(%1$d)</string>
+
+
+    <string name="connection_error">Network not available.\n\nTurn on your network device.</string>
+    <string name="unknow_error">Unknow error</string>
+</resources>
